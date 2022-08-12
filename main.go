@@ -6,6 +6,6 @@ import (
 )
 
 func main() {
-	text := os.Args
-	fmt.Println(len(text[1:]))
+	text := os.Args[1]
+	fmt.Println(len(text))
 }
